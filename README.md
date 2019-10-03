@@ -9,3 +9,9 @@ Tutorials to make an R package:
 2. [R-Mageddon: Writing an R package from scratch](https://r-mageddon.netlify.com/),
 3. [`usethis` workflow for package development](https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/#before-creation),
 4. [Hadley Wickham: R Packages](http://r-pkgs.had.co.nz/).
+5. [RStudio](https://support.rstudio.com/hc/en-us/articles/200486488-Developing-Packages-with-RStudio)
+---
+Problems to solve:
+
+1. Two active pings are faraway
+2. Vehicle stopping for a long time

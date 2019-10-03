@@ -1,0 +1,27 @@
+---
+title: "How_to_analyze_NDS_datasets"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{How_to_analyze_NDS_datasets}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(NDS)
+```
+
+```{r}
+head(nds_ping)
+```
+
+```{r}
+head(nds_trip)
+```
