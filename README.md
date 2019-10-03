@@ -1,2 +1,11 @@
 # NDS
 An R package for manipulating naturalistic driving datasets.
+
+
+---
+Tutorials to make an R package:
+
+1. [Hilary Parker: Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/),
+2. [R-Mageddon: Writing an R package from scratch](https://r-mageddon.netlify.com/),
+3. [`usethis` workflow for package development](https://www.hvitfeldt.me/blog/usethis-workflow-for-package-development/#before-creation),
+4. [Hadley Wickham: R Packages](http://r-pkgs.had.co.nz/).
