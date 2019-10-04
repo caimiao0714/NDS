@@ -2,7 +2,7 @@
 % Please edit documentation in R/segment.R
 \name{segment}
 \alias{segment}
-\title{Segment NDS ping data to shifts and trips}
+\title{`segment` NDS ping data to shifts and trips}
 \usage{
 segment(speed, threshold, time_diff)
 }
@@ -17,7 +17,7 @@ segment(speed, threshold, time_diff)
 This function segments NDS ping data to shifts and trips
 }
 \examples{
-segment(dat$speed, 30, d$time_diff)
+`segment(dat$speed, 30, d$time_diff)`
 }
 \keyword{NDS}
 \keyword{ping}

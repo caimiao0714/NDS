@@ -4,15 +4,22 @@
 \name{NDS-package}
 \alias{NDS}
 \alias{NDS-package}
-\title{NDS: An R package for manipulating Naturalistic Driving Datasets (NDS).}
+\title{NDS: a toolkit for handling NDS datasets.}
 \description{
-An R package for manipulating Naturalistic Driving Datasets (NDS).
+NDS provides high-performance data aggregation and separation toolkits to
+handle high-resolution naturalistic driving datasets.
+}
+\details{
+\itemize{
+\item Aggregate large real-time ping data to trips or shifts.
+\item Separate trips or shifts to equal-length time intervals.
+\item Merge Safety Critical-Events with trips, shifts, and time intervals.
+}
+
+To learn more about NDS, you can start with the vignettes:
+`browseVignettes(package = "NDS")`
 }
 \author{
 \strong{Maintainer}: Miao Cai \email{miao.cai@slu.edu} (0000-0003-0170-6905)
 
 }
-\keyword{(NDS)}
-\keyword{driving}
-\keyword{naturalistic}
-\keyword{studies}

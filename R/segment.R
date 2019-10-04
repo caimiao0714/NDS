@@ -1,13 +1,15 @@
-#' @title Segment NDS ping data to shifts and trips
+#' @title `segment` NDS ping data by adding a trip or shift ID column.
 #'
 #' @description This function segments NDS ping data to shifts and trips
 #' @param speed Real time speed of the ping
 #' @param threhold The threshold you want to separate the ping (in minutes). It is recommended to use 30 minutes to separate into trips, and 8*60 minutes to separate into shifts.
 #' @param time_diff The time difference between the nearest two pings.
-#' @keywords NDS ping trip shift
-#' @keywords separate
+#' @keywords ping
+#' @keywords threshold
+#' @keywords trip
+#' @keywords shift
 #' @export
-#' @examples segment(dat$speed, 30, d$time_diff)
+#' @examples `segment(dat$speed, 30, d$time_diff)`
 
 segment = function(speed, threshold, time_diff) {
   ## Replace very long single points
