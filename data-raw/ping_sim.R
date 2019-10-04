@@ -19,6 +19,6 @@ ping_speed[ping_time >=
         as.POSIXct("2015-05-21 18:31:30", format="%Y-%m-%d %H:%M:%S", tzone = "UTC")] = 0
 ping_speed[length(ping_speed)-5:length(ping_speed)] = 0
 
-nds_ping = data.frame(ping_time, ping_speed)
+ping_sim = data.frame(ping_time, ping_speed)
 
-usethis::use_data(nds_ping)
+usethis::use_data(ping_sim, overwrite = TRUE)

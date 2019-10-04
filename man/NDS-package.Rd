@@ -6,7 +6,8 @@
 \alias{NDS-package}
 \title{NDS: a toolkit for handling NDS datasets.}
 \description{
-NDS provides high-performance data aggregation and separation toolkits to
+NDS provides high-performance data separation,
+aggregation, reorganize, and fuzzy joining toolkits to
 handle high-resolution naturalistic driving datasets.
 }
 \details{
