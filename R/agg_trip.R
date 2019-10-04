@@ -7,7 +7,7 @@
 #' @param time_diff The time difference between the nearest two pings.
 #' @keywords aggregate
 #' @export
-#' @examples `agg_trip(data = dat, trip_id = id)`
+#' @examples agg_trip(data = dat, trip_id = id)
 
 agg_trip = function(data, trip_id){
 

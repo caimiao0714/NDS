@@ -9,7 +9,7 @@
 #' @keywords trip
 #' @keywords shift
 #' @export
-#' @examples `segment(dat$speed, 30, d$time_diff)`
+#' @examples segment(dat$speed, 30, d$time_diff)
 
 segment = function(speed, threshold, time_diff) {
   ## Replace very long single points
