@@ -19,6 +19,6 @@ agg_trip(data, trip_id)
 This function produce new datasets with starting and ending variables, which may include date and time, latitude, longitude.
 }
 \examples{
-`agg_trip(data = dat, trip_id = id)`
+agg_trip(data = dat, trip_id = id)
 }
 \keyword{aggregate}

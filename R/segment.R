@@ -12,7 +12,7 @@
 #' @examples segment(dat$speed, 30, d$time_diff)
 
 segment = function(speed, threshold, time_diff) {
-  speed1 = speed 
+  speed1 = speed
   speed[time_diff >= threshold] <- 0 # Replace very long single points
   r1 = rle(speed != 0)
   r1$values <- replicate(length(r1$values), 1)

@@ -17,7 +17,7 @@ segment(speed, threshold, time_diff)
 This function segments NDS ping data to shifts and trips
 }
 \examples{
-`segment(dat$speed, 30, d$time_diff)`
+segment(dat$speed, 30, d$time_diff)
 }
 \keyword{ping}
 \keyword{shift}
