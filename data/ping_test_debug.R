@@ -15,7 +15,7 @@ d1 = d %>%
 speed = d1[,speed]
 threshold = 8*60
 time_diff = d1[,diff]
-
+driver = d1[,driver]
 
 speed1 = speed
 # 1. Replace large jumps between two non-zero speed
