@@ -20,8 +20,7 @@ segment = function(speed, threshold, time_diff) {
   r1$values <- replicate(length(r1$values), 1)
   r1$values <- cumsum(r1$values)
   order_tmp <- inverse.rle(r1)
-  dat_tmp1 <- data.table::data.table(d1[,ping_time], speed, order_tmp, time_diff,
-                                     time_diff1 = time_diff, order_tmp1 = order_tmp)
+  dat_tmp1 <- data.table::data.table(time_diff1 = time_diff, order_tmp1 = order_tmp)
   dat_tmp1[,sum_speed := sum(speed), order_tmp]
   dat_tmp1[sum_speed != 0,
            order_tmp1 := {order_tmp1[1] = order_tmp1[1] - 1;order_tmp1},
