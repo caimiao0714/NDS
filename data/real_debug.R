@@ -11,7 +11,7 @@ d = readRDS("data/real_test.Rds") %>%
 
 
 
-speed1 = speed
+speed1 = d[,speed]
 # 1. Replace large jumps between two non-zero speed
 speed[time_diff >= threshold] <- 0
 # 2. Mark continuous states (driving or stopping) with "order_tmp"
@@ -79,7 +79,7 @@ id = d3[,rep(new_id1, N)]
 # 6. Replace leading non-zero speed with the following trip id
 jump_speed = which(id == 0 & orginal_speed != 0)
 id[jump_speed] = id[jump_speed + 1]
-
-
-
+# 7. TODO replacing leading short period of 0 speeds
+d1[,shift_id := id]
+d1[,,.(driver, shift_id)]
 
